@@ -1,0 +1,37 @@
+Q1---
+taken argument from command line
+directory permission to User
+take a buffer 
+Goto End Of oldfile
+LOOP-from eof to buffer size move backward direction store into buffer reverse it write into newfile 
+if read data less than buffer size 
+read it store into buffer then reverse the remainning data write into new file 
+step 6 do it till start of file 
+shown how much content is written into new file simultaneously.
+
+----------------------------------------------------------------------------------
+Q2---
+taken argument from command line 
+directory permission to User
+LOOP-goto start of character from their to size of buffer in backward direction  store data into buffer reverse it,write into new file untill beginning of old file
+LOOP-goto start char+1 to end just store data according to buffer size  just write as it is.
+goto end of file 
+LOOP-from eof to buffer size in backward direction to store data into buffer then reverse it write into new file.
+shown how much content is written into new file simultaneously.
+
+-----------------------------------------------------------------------------
+
+Q3--
+take new file old file and directory as command line argument
+take two buffer bf1 and bf2
+LOOP-
+bf2 contain new file contain till buffer size
+bf1 contain old file contain till buffer size
+check bf2 first char is same as bf1 last char goes till file size
+LOOP Ends
+true file content same otherwise not
+Check Permission for newfile to USER GROUP OTHER 
+Check Permission for oldfile to USER GROUP OTHER 
+Check Permission for Directory to USER GROUP OTHER 
+
+------------------------------------------------------------------------
